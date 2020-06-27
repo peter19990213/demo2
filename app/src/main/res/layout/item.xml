@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableRow>
+    <TextView android:id="@+id/_id" android:layout_weight="1"></TextView>
+    <TextView android:id="@+id/_latitude" android:layout_weight="1"></TextView>
+    <TextView android:id="@+id/_longitude" android:layout_weight="1"></TextView>
+</TableRow>
+    <TextView android:id="@+id/_name" ></TextView>
+
+</TableLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <TableRow>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Longitude"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/longitude">
+
+        </EditText>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Latitude"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/latitude">
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Name"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:id="@+id/name">
+
+        </EditText>
+
+
+    </TableRow>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Add"
+        android:id="@+id/btn_add">
+    </Button>
+
+
+</TableLayout>
